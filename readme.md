@@ -4,10 +4,12 @@ Test Time Transform Prediction for Open Set Histopathological Image Recognition
 Adrian Galdran, Katherine Jane Hewitt, Narmin Ghaffari Laleh, Jakob Kather, Gustavo Carneiro, Miguel A. González Ballester
 MICCAI - Medical Image Computing and Computer Assisted Interventions 2022
 ```
-Link: [here](arxiv.org)
+Link: [here](https://arxiv.org/)
 
 
 Please follow these instructions to get the data ready:
+
+* Kather 2016 [link to data source](https://www.nature.com/articles/srep27988)
 
 ```
 wget https://zenodo.org/record/53169/files/Kather_texture_2016_image_tiles_5000.zip
@@ -19,6 +21,7 @@ rm -r data/Kather_texture_2016_image_tiles_5000
 rm Kather_texture_2016_image_tiles_5000.zip
 ```
 
+* Kather 100k [link to data source](https://doi.org/10.1371/journal.pmed.1002730)
 ```
 wget https://zenodo.org/record/1214456/files/NCT-CRC-HE-100K.zip  
 # below, optionally specify different path to store data, "-d other_path/"
