@@ -1,12 +1,24 @@
+
+## What's in this repository
 You have reached the repository containing code to reproduce the experiments in our paper:
 ```
 Test Time Transform Prediction for Open Set Histopathological Image Recognition
 Adrian Galdran, Katherine Jane Hewitt, Narmin Ghaffari Laleh, Jakob Kather, Gustavo Carneiro, Miguel A. González Ballester
 MICCAI - Medical Image Computing and Computer Assisted Interventions 2022
 ```
-Link: [here](https://arxiv.org/)
+Link: [here](https://arxiv.org/abs/2206.10033)
 
 
+## Video Presentation
+You can find watch a 5-minute video presentation we prepared also for MICCAI workshop by clicking in the image below:
+
+<a href="https://www.youtube.com/watch?v=Dt9uAvgPPak">
+<p align="center">
+<img href="InstantDL" src="other/T3PO.png" width="500" alt="Link to presentation" align="center">
+</p>
+</a>
+
+## Prepare the data
 Please follow these instructions to get the data ready:
 
 * Kather 2016 [link to data source](https://www.nature.com/articles/srep27988)
@@ -32,7 +44,9 @@ rm -r data/NCT-CRC-HE-100K
 rm NCT-CRC-HE-100K.zip
 ```
 
+## Train the models
 Afterwards, have a look at `osr_train.sh`, where you can find the instruction to train a model as in our paper. 
 Note that testing also happen in the training script, at the end, and results are already logged in a txt file.
 
+## Acknowledgement
 Acknowledgement: The code in this repository is very much based on [this codebase](https://github.com/sgvaze/osr_closed_set_all_you_need). In fact, you may find some pieces of code here and there that do nothing, those are parts of the original code that I did not get to remove or clean up, sorry about that.
